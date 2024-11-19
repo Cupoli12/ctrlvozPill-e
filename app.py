@@ -19,7 +19,7 @@ def on_message(client, userdata, message):
     st.write(f"Mensaje recibido: {message_received}")
 
 # Configuración MQTT
-broker = "test.mosquitto.org"  # Cambiar broker según necesidad
+broker = "broker.hivemq.com"  # Cambiar broker según necesidad
 port = 1883
 client1 = paho.Client("GIT-HUB")
 client1.on_message = on_message
