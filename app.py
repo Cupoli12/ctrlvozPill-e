@@ -31,7 +31,7 @@ st.title("Interfaz de voz Pill-E")
 st.subheader("Pídele a Pill-E la pastilla que necesitas: Roja=Resfriado, Morada=Infección Gastrointestinal o Azul=Alergia.")
 
 # Imagen decorativa
-image = Image.open('voice_ctrl.jpg')
+image = Image.open('ojospili.jpg')
 st.image(image, width=200)
 
 st.write("Toca el Botón y habla")
